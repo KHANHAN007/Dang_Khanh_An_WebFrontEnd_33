@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input-container {
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 250px;
+            height: 30px;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 0px 5px;
+        }
+
+        input {
+            border: none;
+            outline: none;
+        }
+
+        button {
+            border: none;
+            outline: none;
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="input-container">
+        <input type="password" name="" id="inputPassword" placeholder="Enter your password">
+        <span onclick="togglePassword()" id="eyeIcon">👁‍🗨</span>
+    </div>
+    <script src="Ex01.js"></script>
+</body>
+
+</html>

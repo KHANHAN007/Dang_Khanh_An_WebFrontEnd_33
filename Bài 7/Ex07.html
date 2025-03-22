@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Cửa hàng Đơn giản</h1>
+    <div class="container">
+        <div class="products" id="products"></div>
+        <div class="cart">
+            <h2>Giỏ hàng</h2>
+            <div id="cart-content">
+                <p id="empty-cart">Giỏ hàng trống</p>
+                <ul id="cart-items"></ul>
+            </div>
+            <div id="total-container">
+                <span id="total">Tổng: 0₫</span>
+            </div>
+            <button onclick="checkout()">Thanh toán</button>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
